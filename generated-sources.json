@@ -2267,6 +2267,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/adler-32/-/adler-32-1.3.1.tgz#1dbf0b36dda0012189a32b3679061932df1821e2",
+        "sha512": "ca7678c3f9d452fe6baec47c5141a87b5542f61663e95e6153d430d4794c0c9184270e52ed37d312b5938cccace8ceefaf461670faacdea02be2cb349c37cff8",
+        "dest-filename": "adler-32-1.3.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.5.10.tgz#4a51d5ab544b1f5ce51e1b9043139b639afff45b",
         "sha512": "c741ef707a9524d4cf93f070f096cb5a55a8a3a5b09ecba0d1f9d862ba351c1ae3c59dc6eff01993b021bfc2700ded6e21ccfc781aafbbce85b85d4f3a21bbbd",
         "dest-filename": "adm-zip-0.5.10.tgz",
@@ -3471,6 +3478,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/cfb/-/cfb-1.2.2.tgz#94e687628c700e5155436dac05f74e08df23bc44",
+        "sha512": "29f75466c48ec35f7f39b1166acbc13ff01ce2b799bc019ab9986ce92fe0a8d857848edc2b0be51fbba58fe74e1189dc6b86e6e121a8f02d5b4c042f9d38e040",
+        "dest-filename": "cfb-1.2.2.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/chalk/-/chalk-1.1.3.tgz#a8115c55e4a702fe4d150abd3872822a7e09fc98",
         "sha512": "53795154b31296c09f8ea60f6cbc95bf5d4cf423d6e08ef6f1de9308a300389b9e11e07dffca3e792b0c9f13c90fe43e2bdd3db1d11283b0beb489281faa27d4",
         "dest-filename": "chalk-1.1.3.tgz",
@@ -3677,6 +3691,13 @@
         "url": "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77",
         "sha512": "4690152900394fadf1123ebf82221b504b59c09e1414873766dbc4922694111ca5a9ef316f922fa9c80ebab64b6a1bfddc22ca7f1730e5823e0d9714051c8b5c",
         "dest-filename": "code-point-at-1.1.0.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/codepage/-/codepage-1.15.0.tgz#2e00519024b39424ec66eeb3ec07227e692618ab",
+        "sha512": "de0e8d5133ddfd8b6eb86ae132738c46315cf8b270fdb9cca77fb4aff59ccf721752e0a8b0a449bcca619b9f90f9bbd354670926e46f54bb986daf96a2368568",
+        "dest-filename": "codepage-1.15.0.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -4041,6 +4062,13 @@
         "url": "https://registry.yarnpkg.com/cosmiconfig/-/cosmiconfig-7.1.0.tgz#1443b9afa596b670082ea46cbd8f6a62b84635f6",
         "sha512": "01d997eb153374d012b30b05b66c12b7b563f29a3d22ea979b4517cfb40a3ee11498f0785f28c67da02bd8f4ae10b3309113151f51292245f96d3646441dde08",
         "dest-filename": "cosmiconfig-7.1.0.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/crc-32/-/crc-32-1.2.2.tgz#3cad35a934b8bf71f25ca524b6da51fb7eace2ff",
+        "sha512": "44e9b308aad39cec326cf709029000e960568a3db71d57c654d2aaaab669bb264e1ea2b60b01d2be91aecadfd434dbda22311df17e48146a78321f887b520725",
+        "dest-filename": "crc-32-1.2.2.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -5791,6 +5819,13 @@
         "url": "https://registry.yarnpkg.com/forwarded/-/forwarded-0.2.0.tgz#2269936428aad4c15c7ebe9779a84bf0b2a81811",
         "sha512": "6ee446d1fa41b511d24c238049eea10f6e7cb44b9b16844b6f864d03a3713151cdc3680e7301e8f70c9a6e5ccccce039cfdc40f4bd4a36393f36de8c4fd698a3",
         "dest-filename": "forwarded-0.2.0.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/frac/-/frac-1.1.2.tgz#3d74f7f6478c88a1b5020306d747dc6313c74d0b",
+        "sha512": "c3f5c17e489b693977603a804b07c352a9276b8676a7d7054abd5a1c3b745a83131029d17c13afd9602b95920b96a8169667489402d71a933600e8449395b720",
+        "dest-filename": "frac-1.1.2.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -11654,6 +11689,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/ssf/-/ssf-0.11.2.tgz#0b99698b237548d088fc43cdf2b70c1a7512c06c",
+        "sha512": "fa275b9885e86044f8ee11fe77b75f9b67a974e3140e3a9c078eb8f2c4d9fadd89c28c8114bfe29ec2df07fada72b0e6b0a077762c2c0c0ebdea964c89e002e6",
+        "dest-filename": "ssf-0.11.2.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/sshpk/-/sshpk-1.17.0.tgz#578082d92d4fe612b13007496e543fa0fbcbe4c5",
         "sha512": "ffd1c812cd595c68523c4f17e82726ecd6a6d73f0a7280aa3dd23b79c9b5377dc4cc07ad59a86f41656a2d9b5a650f880ca5f8232036a34801cea20c9006a01d",
         "dest-filename": "sshpk-1.17.0.tgz",
@@ -13145,9 +13187,23 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/wmf/-/wmf-1.0.2.tgz#7d19d621071a08c2bdc6b7e688a9c435298cc2da",
+        "sha512": "fe9f4aedb121d038fa59b5e0e091b4c6f2d098869dae77abd5b8b8e553094df9db547b1cef221a8d9ca84a82bad3f76d541b35d859ba5a4508e7fdd6015b0d33",
+        "dest-filename": "wmf-1.0.2.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/word-wrap/-/word-wrap-1.2.3.tgz#610636f6b1f703891bd34771ccb17fb93b47079c",
         "sha512": "1f3fe6acdc22b4d461fc7500b4cfd54ffe551feca00fa0d5ee660a640b473ab6ecf14ee5bcf4bac5fec424a305d2e5b52890a5d07ef4d60dd91aeb3e9ae139bd",
         "dest-filename": "word-wrap-1.2.3.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/word/-/word-0.3.0.tgz#8542157e4f8e849f4a363a288992d47612db9961",
+        "sha512": "3842de63443ad4e5e97547d3a7ea30780fefb4b560e550ce5e1fb785edcf3732c61bfcb4a32952382d714558f4fa5e2f437b63fdb0751d51efd6871791071e14",
+        "dest-filename": "word-0.3.0.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -13351,6 +13407,13 @@
         "url": "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-4.0.0.tgz#4bc8d9984403696225ef83a1573cbbcb4e79db13",
         "sha512": "3d23611090de8d9615ee1e7406884bd3d12bf5568879faf62cc01fdce126a429233a2df8798c906005d44e3110b5925329c17413650a4e1fa8b032ec80d8a6f5",
         "dest-filename": "xdg-basedir-4.0.0.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/xlsx/-/xlsx-0.18.5.tgz#16711b9113c848076b8a177022799ad356eba7d0",
+        "sha512": "7668372c28c13c7667429e7f17ffa79d36be9a23c9c545c1eafb64e3662304129ac8335a8311847887560299183ce7f7677a66de4eb62a78f3a7b94c79312d15",
+        "dest-filename": "xlsx-0.18.5.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
