@@ -1,12 +1,12 @@
 app-id: io.github.troyeguo.koodo-reader
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '22.08'
+base-version: '23.08'
 sdk-extensions:
-  # Node.js version: https://github.com/troyeguo/koodo-reader/blob/8e8d0693659fe0c62c13865054250aeca429f83c/.github/workflows/release.yml#L28
-  - org.freedesktop.Sdk.Extension.node14
+  # Node.js version: https://github.com/troyeguo/koodo-reader/blob/5955c67910ccc439f5e61ef26402fd46feec0977/.github/workflows/release.yml#L28
+  - org.freedesktop.Sdk.Extension.node18
 command: koodo
 finish-args:
   - --device=dri
@@ -32,11 +32,11 @@ modules:
     buildsystem: simple
     build-options:
       # Add the node bin directory.
-      append-path: /usr/lib/sdk/node14/bin:/run/build/koodo/flatpak-node/chromedrive
+      append-path: /usr/lib/sdk/node18/bin:/run/build/koodo/flatpak-node/chromedrive
       env:
         # Don't add ELECTRON_CACHE
         XDG_CACHE_HOME: /run/build/koodo/flatpak-node/cache
-        npm_config_nodedir: /usr/lib/sdk/node14
+        npm_config_nodedir: /usr/lib/sdk/node18
         npm_config_offline: 'true'
         npm_config_no_save: 'true'
         npm_config_cache: /run/build/koodo/flatpak-node/npm-cache
