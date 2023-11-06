@@ -83,8 +83,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/troyeguo/koodo-reader.git
-        tag: v1.5.9
-        commit: 7a623b408b54afdd9bfb7672cf3e631ed42a2be8
+        tag: v1.6.0
+        commit: 587e4bc5d8ce162d3ab03e8e6287501b0dfcb9b5
         x-checker-data:
           type: anitya
           project-id: 328157
