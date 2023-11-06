@@ -2491,6 +2491,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/@types/iconv-lite/-/iconv-lite-0.0.1.tgz#aa3b8bda2be512b1ae0a057b942e869c370a5569",
+        "sha512": "4ac4414311b0effdbf3716097c1762531e5aeccb3fbe869484e3bdbb6cbd1537933413b53d7a21cc4e22dc97c3f2ad937b8d872d39f9a7266d0dff23d5b3ca81",
+        "dest-filename": "@types-iconv-lite-0.0.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/@types/istanbul-lib-coverage/-/istanbul-lib-coverage-2.0.4.tgz#8467d4b3c087805d63580480890791277ce35c44",
         "sha512": "cff413d573782b8298bac952db793adb20c80cbc0b164cf13ae329943b4e6f3d3ecbb56a24268eda8f923f01c2bcb15987bc5acefbe8a2bdad03f84fcfd79eee",
         "dest-filename": "@types-istanbul-lib-coverage-2.0.4.tgz",
@@ -3908,6 +3915,13 @@
         "url": "https://registry.yarnpkg.com/buffer/-/buffer-5.7.1.tgz#ba62e7c13133053582197160851a8f648e99eed0",
         "sha512": "10773220f050e0148696f8c1d7a9392a0009dbb088b0763fd8906609145ea38f32f6b43731a533597dca56505ae14eccc97d361dd563d0aec2dd6681de3bbb15",
         "dest-filename": "buffer-5.7.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/buffer/-/buffer-6.0.3.tgz#2ace578459cc8fbe2a70aaa8f52ee63b6a74c6c6",
+        "sha512": "153882a4dc6dc226591c465b71b4c87198c44552029fdcaafe90c591397de7f031cc3d6768172d37b60eebcae233f80b48363bb1dacc6f2f21a1f00362ebaa38",
+        "dest-filename": "buffer-6.0.3.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -5770,13 +5784,6 @@
         "url": "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.1.tgz#8d172c064867f235c0c84a596806d279bf4bcc07",
         "sha512": "5ab937e5ef327422838ff02b0a5a3556b3d598df33a61e55e00b47c08b8786f317b0a7fbdd44f704e0fe6b30485bedf0389e058441fbcf2689085bc286362f30",
         "dest-filename": "extsprintf-1.4.1.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
-        "url": "https://registry.yarnpkg.com/fast-average-color/-/fast-average-color-9.4.0.tgz#eea0182fa8818ea0c70dcc7a85b945f3c716b11b",
-        "sha512": "6ef33cbd5e98c0ad3b74f6f3173efbcc968171f17a00155f80dc1ac558177361bea347bfb732c217d594f11ca9d6bd0d924e89b8936c582cdb6f870b38c941f9",
-        "dest-filename": "fast-average-color-9.4.0.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
