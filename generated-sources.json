@@ -3758,9 +3758,9 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/bing-translate-api/-/bing-translate-api-2.9.0.tgz#79f5868b7f9b7e475380bc99d35490e5e33c0bfd",
-        "sha512": "8ef8db2a2eaa81a0f4fd6967f7fae5562ba11350e8606b8492eedf055bcd1c3e32a1a8566fcceabb124593070c1a8fb1fd1289a534735d7e60108d959b611305",
-        "dest-filename": "bing-translate-api-2.9.0.tgz",
+        "url": "https://registry.yarnpkg.com/bing-translate-api/-/bing-translate-api-2.10.0.tgz#a391ce2d7e9be07abf30b98fb0a147a01ab69b3d",
+        "sha512": "8c0c4b30c7ed8c1f4a8b31bf22a533fa9c9f07a9f843cceeecb5606c050b7876c1bcecbe127c319be7f6b8daca4de88ee2d2a136a8b5dca8e4dbd0ce73eabfcf",
+        "dest-filename": "bing-translate-api-2.10.0.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
