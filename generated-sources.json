@@ -12270,13 +12270,6 @@
     },
     {
         "type": "file",
-        "url": "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30",
-        "sha512": "6fed5e24e96c47d2bc1c9a68c3d3a4ddf896396488708cd7a1dbefd2b42356839536958ca717f5c19369b78cbd875d2874236baa7629d4e073464b5c9017b7b0",
-        "dest-filename": "uuid-9.0.1.tgz",
-        "dest": "flatpak-node/yarn-mirror"
-    },
-    {
-        "type": "file",
         "url": "https://registry.yarnpkg.com/v8-to-istanbul/-/v8-to-istanbul-8.1.1.tgz#77b752fd3975e31bbcef938f85e9bd1c7a8d60ed",
         "sha512": "146b4ab6fdf122947a05886f807f0c23fcbbf284fb77c02edf0c38408c729ab0ad6448796fc802c36b22cb013ea6e8449ae58a0ed99faef179525076f7cbaddf",
         "dest-filename": "v8-to-istanbul-8.1.1.tgz",
