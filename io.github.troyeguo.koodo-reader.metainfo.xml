@@ -6,7 +6,7 @@
     <project_license>AGPL-3.0</project_license>
     <name>Koodo Reader</name>
     <developer_name>Troye Guo</developer_name>
-    <summary>A cross-platform ebook reader</summary>
+    <summary>All-in-one ebook reader</summary>
     <description>
         <p>
             Koodo Reader is an all-in-one ebook reader that can help you better manage and study
@@ -36,13 +36,13 @@
                 https://camo.githubusercontent.com/d0403a858b2d772c56397f4d9c9f353a131353180a959e392ec9be3a3a61556a/68747470733a2f2f646c2e6b6f6f646f7265616465722e636f6d2f73637265656e73686f74732f352e706e67</image>
         </screenshot>
     </screenshots>
-    <url type="homepage">https://koodo.960960.xyz/</url>
-    <url type="bugtracker">https://github.com/troyeguo/koodo-reader/issues</url>
-    <url type="vcs-browser">https://github.com/troyeguo/koodo-reader/issues</url>
-    <url type="translate">https://poeditor.com/join/project?hash=fk4qbQTlsk</url>
-    <url type="contact">https://koodo.960960.xyz/en/support</url>
+    <url type="homepage">https://www.koodoreader.com/</url>
+    <url type="bugtracker">https://github.com/koodo-reader/koodo-reader/issues</url>
+    <url type="vcs-browser">https://github.com/koodo-reader/koodo-reader</url>
+    <url type="translate">https://github.com/koodo-reader/koodo-reader#translation</url>
+    <url type="contact">https://www.koodoreader.com/support</url>
     <url type="help">
-        https://troyeguo.notion.site/Koodo-Reader-Document-9c767af3d66c459db996bdd08a34c34b</url>
+        https://www.koodoreader.com/document</url>
 
     <releases>
         <release version="1.6.5" date="2024-03-01"/>
@@ -69,5 +69,4 @@
         <content_attribute id="language-humor">moderate</content_attribute>
         <content_attribute id="language-discrimination">moderate</content_attribute>
     </content_rating>
-
 </component>
