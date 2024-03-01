@@ -1,32 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop">
     <id>io.github.troyeguo.koodo-reader</id>
+    <launchable type="desktop-id">io.github.troyeguo.koodo-reader.desktop</launchable>
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>AGPL-3.0</project_license>
     <name>Koodo Reader</name>
     <developer_name>Troye Guo</developer_name>
-    <summary>A cross-platform ebook reader</summary>
+    <summary>All-in-one ebook reader</summary>
     <description>
         <p>
             Koodo Reader is an all-in-one ebook reader that can help you better manage and study
             your ebooks. It's free and open-source.
         </p>
         <ul>
-            <li>Format support: <ul>
-                    <li>EPUB (.epub)</li>
-                    <li>Scanned document (.pdf, .djvu)</li>
-                    <li>DRM-free Mobipocket (.mobi) and Kindle (.azw3
-                        , .azw)</li>
-                    <li>Plain text (.txt)</li>
-                    <li>FictionBook (.fb2)</li>
-                    <li>Comic book archive (.cbr, .cbz,
-                        .cbt, .cb7)</li>
-                    <li>Rich text (.md, .docx, .rtf
-                        )</li>
-                    <li>Hyper Text (.html, .xml, .xhtml
-                        , .mhtml, .htm, .htm)</li>
-                </ul>
-            </li>
+            <li>Extensive formats support</li>
             <li>Save your data to Dropbox or Webdav</li>
             <li>Customize the source folder and synchronize among multiple devices using OneDrive,
                 iCloud, Dropbox, etc.</li>
@@ -42,46 +29,23 @@
     <screenshots>
         <screenshot type="default">
             <image>
-                https://camo.githubusercontent.com/437b3e9750114090f4ac92ac7661b0c884c9b70557da6fdb0499979492a43e83/68747470733a2f2f692e6c6f6c692e6e65742f323032312f30382f30382f493337575059464a6343316a6c746e2e706e67</image>
+                https://camo.githubusercontent.com/efcdadca7e6c7870c475909d97ba4b3cc915f4fb342480809dcb867b46e2dc2d/68747470733a2f2f646c2e6b6f6f646f7265616465722e636f6d2f73637265656e73686f74732f312e706e67</image>
         </screenshot>
         <screenshot>
             <image>
-                https://camo.githubusercontent.com/d13e9dcaf2dfca18800310a0d48cb7b097dfcc157c769925455647d15accab4c/68747470733a2f2f692e6c6f6c692e6e65742f323032312f30382f30382f473757765551465472457053434b672e706e67</image>
-        </screenshot>
-        <screenshot>
-            <image>
-                https://camo.githubusercontent.com/dfba9dc183863802edf98f25a9b9681ea10fe70434fef38e7d5ddd188fceb06d/68747470733a2f2f692e6c6f6c692e6e65742f323032312f30382f30382f4a794e486654684d73313834556d322e706e67</image>
-        </screenshot>
-        <screenshot>
-            <image>
-                https://camo.githubusercontent.com/410da9e27e4b3051eca1afdd88dde5d4b8d42381f71fe1ceaf703cb4e794731e/68747470733a2f2f692e6c6f6c692e6e65742f323032312f30382f30382f37367a6b4445416f62643471736d522e706e67</image>
-        </screenshot>
-        <screenshot>
-            <image>
-                https://camo.githubusercontent.com/ea63e3ef574416694ec94c7b5d1fe4fb6aae2bb44482c184b506379063023e52/68747470733a2f2f692e6c6f6c692e6e65742f323032312f30382f30382f4c65454e39676e4f76466d665657412e706e67</image>
-        </screenshot>
-        <screenshot>
-            <image>
-                https://camo.githubusercontent.com/c654db0280be8fba861891d0af02f60d44266118d57c8182ef4ce9917ecca135/68747470733a2f2f692e6c6f6c692e6e65742f323032312f30382f30382f615249416959543264474a516843312e706e67</image>
-        </screenshot>
-        <screenshot>
-            <image>
-                https://camo.githubusercontent.com/ab5632af97befb43c76e6098a690079ca030e57b7ebc3bac2165e2d53c0d59c1/68747470733a2f2f692e6c6f6c692e6e65742f323032312f30382f30382f796e71554e70583933785a656664772e706e67</image>
-        </screenshot>
-        <screenshot>
-            <image>
-                https://camo.githubusercontent.com/f42b21fc2f390d9842d09cc4da6040e3e82bc9d45aa8f5943ce2866e19a0d158/68747470733a2f2f692e6c6f6c692e6e65742f323032312f30382f30392f73415251426f656676476b6c4877432e706e67</image>
+                https://camo.githubusercontent.com/d0403a858b2d772c56397f4d9c9f353a131353180a959e392ec9be3a3a61556a/68747470733a2f2f646c2e6b6f6f646f7265616465722e636f6d2f73637265656e73686f74732f352e706e67</image>
         </screenshot>
     </screenshots>
-    <url type="homepage">https://koodo.960960.xyz/</url>
-    <url type="bugtracker">https://github.com/troyeguo/koodo-reader/issues</url>
-    <url type="vcs-browser">https://github.com/troyeguo/koodo-reader/issues</url>
-    <url type="translate">https://poeditor.com/join/project?hash=fk4qbQTlsk</url>
-    <url type="contact">https://koodo.960960.xyz/en/support</url>
+    <url type="homepage">https://www.koodoreader.com/</url>
+    <url type="bugtracker">https://github.com/koodo-reader/koodo-reader/issues</url>
+    <url type="vcs-browser">https://github.com/koodo-reader/koodo-reader</url>
+    <url type="translate">https://github.com/koodo-reader/koodo-reader#translation</url>
+    <url type="contact">https://www.koodoreader.com/support</url>
     <url type="help">
-        https://troyeguo.notion.site/Koodo-Reader-Document-9c767af3d66c459db996bdd08a34c34b</url>
+        https://www.koodoreader.com/document</url>
 
     <releases>
+        <release version="1.6.5" date="2024-03-01"/>
         <release version="1.6.3" date="2024-01-18"/>
         <release version="1.6.2" date="2024-01-13"/>
         <release version="1.6.1" date="2023-12-17"/>
@@ -92,7 +56,6 @@
         <release version="1.5.5" date="2023-05-22"/>
         <release version="1.5.4" date="2023-05-20"/>
         <release version="1.5.3" date="2023-04-08"/>
-        <release version="v1.5.2" date="2023-02-19"/>
     </releases>
 
     <content_rating type="oars-1.1">
@@ -106,5 +69,4 @@
         <content_attribute id="language-humor">moderate</content_attribute>
         <content_attribute id="language-discrimination">moderate</content_attribute>
     </content_rating>
-
 </component>
