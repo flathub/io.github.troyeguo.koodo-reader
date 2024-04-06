@@ -2015,6 +2015,27 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/@floating-ui/core/-/core-1.6.0.tgz#fa41b87812a16bf123122bf945946bae3fdf7fc1",
+        "sha512": "3dc17ef8cca48264e3dc22323906ca03f843cce022a88de686ea0de385910a8a48b35b20a03a14e28b72e09b6a6a3ff2de80d4e9f9d54a6e101b46b7b798b4fa",
+        "dest-filename": "@floating-ui-core-1.6.0.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/@floating-ui/dom/-/dom-1.6.3.tgz#954e46c1dd3ad48e49db9ada7218b0985cee75ef",
+        "sha512": "4670ed86ede6ccf950df54acfc14f0435ce3cc886bde5935819075382e7a87fd6f12d6979044ab3aa2f97d054c7d7a701ad4705fe62c6417721ed24c427900af",
+        "dest-filename": "@floating-ui-dom-1.6.3.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/@floating-ui/utils/-/utils-0.2.1.tgz#16308cea045f0fc777b6ff20a9f25474dd8293d2",
+        "sha512": "f5300da7a18fa0cb58cd076de7891f032326cf5fa8b0b957760d8436ba14ef3cebb5f9532ebac2fe582b21f6927be5aed1bf3d18a71c4fbbf15c0d0ca0020ef9",
+        "dest-filename": "@floating-ui-utils-0.2.1.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/@gar/promisify/-/promisify-1.1.3.tgz#555193ab2e3bb3b6adc3d551c9c030d9e860daf6",
         "sha512": "9364f2d49715a238c9170ae0fd384a8b6ba327b5cd2d868518d07f6d64fdc0647ea123091cc6b9c3e094abaa7fa55aca78d36003ba42a847234a71d5a2a25017",
         "dest-filename": "@gar-promisify-1.1.3.tgz",
@@ -4706,6 +4727,13 @@
         "url": "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924",
         "sha512": "0926e163870510945eebf190cc8939a9767825e839a5cb0fedbe69785483a5f7e97b572a8c0487fe7f544e30703a9e97a4c493c10f196b62b9574dae780ed39b",
         "dest-filename": "classnames-2.3.2.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
+        "url": "https://registry.yarnpkg.com/classnames/-/classnames-2.5.1.tgz#ba774c614be0f016da105c858e7159eae8e7687b",
+        "sha512": "b1a1d83b384842ceb0cb6b15c5333a6d40ec40ee05e7457d450db6a81a447425be23efd69a47b61ce97a952e9d4e97715616fcf3f23af87b3ee37f1cde57d4a3",
+        "dest-filename": "classnames-2.5.1.tgz",
         "dest": "flatpak-node/yarn-mirror"
     },
     {
@@ -10366,6 +10394,13 @@
     },
     {
         "type": "file",
+        "url": "https://registry.yarnpkg.com/react-tooltip/-/react-tooltip-5.26.3.tgz#bcb9a53e15bdbf9ae007ddf8bf413a317a637054",
+        "sha512": "329600c2cf0210751dfd10b819a0c276871ea61fd3e0a1cce6f4b90db93c14e98b32fbc886ddb298fda1b5676b91eecaea5a8f3bcaf3f3e6e7c165085de0e5ce",
+        "dest-filename": "react-tooltip-5.26.3.tgz",
+        "dest": "flatpak-node/yarn-mirror"
+    },
+    {
+        "type": "file",
         "url": "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037",
         "sha512": "82784fb7be62fddabfcf7ffaabfd1ab0fefc0f4bb9f760f92f5a5deccf0ff9d724e85bbf8c978bea25552b6ddfa6d494663f158dffbeef05c0f1435c94641c6c",
         "dest-filename": "react-17.0.2.tgz",
@@ -12939,8 +12974,14 @@
     {
         "type": "shell",
         "commands": [
-            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-arm64.zip\"",
-            "ln -s \"../electron-v14.1.1-linux-arm64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-arm64.zip/electron-v14.1.1-linux-arm64.zip\"",
+            "mkdir -p \"e8fd24c3addc5ff4f2692fa4c1aa07138f34b211da574db473273b83f3881736\"",
+            "ln -s \"../SHASUMS256.txt-14.1.1\" \"e8fd24c3addc5ff4f2692fa4c1aa07138f34b211da574db473273b83f3881736/SHASUMS256.txt\""
+        ],
+        "dest": "flatpak-node/cache/electron"
+    },
+    {
+        "type": "shell",
+        "commands": [
             "mkdir -p \"e8fd24c3addc5ff4f2692fa4c1aa07138f34b211da574db473273b83f3881736\"",
             "ln -s \"../electron-v14.1.1-linux-arm64.zip\" \"e8fd24c3addc5ff4f2692fa4c1aa07138f34b211da574db473273b83f3881736/electron-v14.1.1-linux-arm64.zip\""
         ],
@@ -12952,8 +12993,6 @@
     {
         "type": "shell",
         "commands": [
-            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-armv7l.zip\"",
-            "ln -s \"../electron-v14.1.1-linux-armv7l.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-armv7l.zip/electron-v14.1.1-linux-armv7l.zip\"",
             "mkdir -p \"e8fd24c3addc5ff4f2692fa4c1aa07138f34b211da574db473273b83f3881736\"",
             "ln -s \"../electron-v14.1.1-linux-armv7l.zip\" \"e8fd24c3addc5ff4f2692fa4c1aa07138f34b211da574db473273b83f3881736/electron-v14.1.1-linux-armv7l.zip\""
         ],
@@ -12965,8 +13004,6 @@
     {
         "type": "shell",
         "commands": [
-            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-ia32.zip\"",
-            "ln -s \"../electron-v14.1.1-linux-ia32.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-ia32.zip/electron-v14.1.1-linux-ia32.zip\"",
             "mkdir -p \"e8fd24c3addc5ff4f2692fa4c1aa07138f34b211da574db473273b83f3881736\"",
             "ln -s \"../electron-v14.1.1-linux-ia32.zip\" \"e8fd24c3addc5ff4f2692fa4c1aa07138f34b211da574db473273b83f3881736/electron-v14.1.1-linux-ia32.zip\""
         ],
@@ -12978,10 +13015,52 @@
     {
         "type": "shell",
         "commands": [
-            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-x64.zip\"",
-            "ln -s \"../electron-v14.1.1-linux-x64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-x64.zip/electron-v14.1.1-linux-x64.zip\"",
             "mkdir -p \"e8fd24c3addc5ff4f2692fa4c1aa07138f34b211da574db473273b83f3881736\"",
             "ln -s \"../electron-v14.1.1-linux-x64.zip\" \"e8fd24c3addc5ff4f2692fa4c1aa07138f34b211da574db473273b83f3881736/electron-v14.1.1-linux-x64.zip\""
+        ],
+        "dest": "flatpak-node/cache/electron",
+        "only-arches": [
+            "x86_64"
+        ]
+    },
+    {
+        "type": "shell",
+        "commands": [
+            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-arm64.zip\"",
+            "ln -s \"../electron-v14.1.1-linux-arm64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-arm64.zip/electron-v14.1.1-linux-arm64.zip\""
+        ],
+        "dest": "flatpak-node/cache/electron",
+        "only-arches": [
+            "aarch64"
+        ]
+    },
+    {
+        "type": "shell",
+        "commands": [
+            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-armv7l.zip\"",
+            "ln -s \"../electron-v14.1.1-linux-armv7l.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-armv7l.zip/electron-v14.1.1-linux-armv7l.zip\""
+        ],
+        "dest": "flatpak-node/cache/electron",
+        "only-arches": [
+            "arm"
+        ]
+    },
+    {
+        "type": "shell",
+        "commands": [
+            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-ia32.zip\"",
+            "ln -s \"../electron-v14.1.1-linux-ia32.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-ia32.zip/electron-v14.1.1-linux-ia32.zip\""
+        ],
+        "dest": "flatpak-node/cache/electron",
+        "only-arches": [
+            "i386"
+        ]
+    },
+    {
+        "type": "shell",
+        "commands": [
+            "mkdir -p \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-x64.zip\"",
+            "ln -s \"../electron-v14.1.1-linux-x64.zip\" \"httpsgithub.comelectronelectronreleasesdownloadv14.1.1electron-v14.1.1-linux-x64.zip/electron-v14.1.1-linux-x64.zip\""
         ],
         "dest": "flatpak-node/cache/electron",
         "only-arches": [
