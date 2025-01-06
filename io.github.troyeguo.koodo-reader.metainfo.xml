@@ -28,12 +28,12 @@
     </description>
     <screenshots>
         <screenshot type="default">
-            <image>
-                https://camo.githubusercontent.com/efcdadca7e6c7870c475909d97ba4b3cc915f4fb342480809dcb867b46e2dc2d/68747470733a2f2f646c2e6b6f6f646f7265616465722e636f6d2f73637265656e73686f74732f312e706e67</image>
+            <image>https://dl.koodoreader.com/screenshots/1.png</image>
+            <caption>Home Page</caption>
         </screenshot>
         <screenshot>
-            <image>
-                https://camo.githubusercontent.com/d0403a858b2d772c56397f4d9c9f353a131353180a959e392ec9be3a3a61556a/68747470733a2f2f646c2e6b6f6f646f7265616465722e636f6d2f73637265656e73686f74732f352e706e67</image>
+            <image>https://dl.koodoreader.com/screenshots/5.png</image>
+            <caption>Reader Page</caption>
         </screenshot>
     </screenshots>
     <url type="homepage">https://www.koodoreader.com/</url>
