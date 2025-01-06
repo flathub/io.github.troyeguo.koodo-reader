@@ -1,9 +1,9 @@
 app-id: io.github.troyeguo.koodo-reader
 runtime: org.freedesktop.Platform
-runtime-version: "23.08"
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: "23.08"
+base-version: '23.08'
 sdk-extensions:
   # Node.js version: https://github.com/koodo-reader/koodo-reader/blob/5955c67910ccc439f5e61ef26402fd46feec0977/.github/workflows/release.yml#L28
   - org.freedesktop.Sdk.Extension.node18
@@ -23,8 +23,8 @@ cleanup:
   - /lib/python*
   - /lib/libpython*
   - /share/man
-  - "*.la"
-  - "*.a"
+  - '*.la'
+  - '*.a'
 modules:
   - shared-modules/python2.7/python-2.7.json
 
@@ -37,12 +37,12 @@ modules:
         # Don't add ELECTRON_CACHE
         XDG_CACHE_HOME: /run/build/koodo/flatpak-node/cache
         npm_config_nodedir: /usr/lib/sdk/node18
-        npm_config_offline: "true"
-        npm_config_no_save: "true"
+        npm_config_offline: 'true'
+        npm_config_no_save: 'true'
         npm_config_cache: /run/build/koodo/flatpak-node/npm-cache
         npm_config_loglevel: verbose
-        ELECTRON_SKIP_BINARY_DOWNLOAD: "true"
-        LENS_SKIP_DOWNLOAD_BINARIES: "true"
+        ELECTRON_SKIP_BINARY_DOWNLOAD: 'true'
+        LENS_SKIP_DOWNLOAD_BINARIES: 'true'
       arch:
         # https://github.com/sass/node-sass/issues/3033#issuecomment-763180778
         # The architecture of Electron, see https://electronjs.org/docs/tutorial/support#supported-platforms
@@ -83,8 +83,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/koodo-reader/koodo-reader.git
-        tag: v1.6.7
-        commit: bb931e6e003549e15fe215e319229b3bc0b4b744
+        tag: v1.7.4
+        commit: 61779e23b1798229f90a9892b03759563dd77406
         x-checker-data:
           type: anitya
           project-id: 328157
