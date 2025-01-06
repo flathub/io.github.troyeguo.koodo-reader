@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.10'
+          python-version: "3.10"
 
       - name: Setup environment variables
         run: |
@@ -25,7 +25,7 @@ jobs:
 
       - name: Update Node.js generated sources
         run: |
-          git clone https://github.com/troyeguo/koodo-reader.git --depth=1 --branch=${VERSION} /tmp/koobo-reader
+          git clone https://github.com/koodo-reader/koodo-reader.git --depth=1 --branch=${VERSION} /tmp/koobo-reader
 
           flatpak-node-generator --electron-node-headers yarn /tmp/koobo-reader/yarn.lock -o generated-sources.json
 
