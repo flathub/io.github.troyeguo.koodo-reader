@@ -1,9 +1,9 @@
 app-id: io.github.troyeguo.koodo-reader
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '23.08'
+base-version: '25.08'
 sdk-extensions:
   # Node.js version: https://github.com/koodo-reader/koodo-reader/blob/5955c67910ccc439f5e61ef26402fd46feec0977/.github/workflows/release.yml#L28
   - org.freedesktop.Sdk.Extension.node18
