@@ -1,18 +1,18 @@
 app-id: io.github.troyeguo.koodo-reader
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.electronjs.Electron2.BaseApp
-base-version: '23.08'
+base-version: '25.08'
 sdk-extensions:
-  # Node.js version: https://github.com/koodo-reader/koodo-reader/blob/5955c67910ccc439f5e61ef26402fd46feec0977/.github/workflows/release.yml#L28
-  - org.freedesktop.Sdk.Extension.node18
+  - org.freedesktop.Sdk.Extension.node22
 command: koodo
 finish-args:
   - --device=dri
   - --share=ipc
   - --share=network
-  - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --socket=pulseaudio
   # It uses old Electron and thus doesn't support GTKFileChooserNative
   - --filesystem=home:ro
@@ -20,23 +20,19 @@ cleanup:
   - /bin/*.py
   - /include
   - /lib/pkgconfig
-  - /lib/python*
-  - /lib/libpython*
   - /share/man
   - '*.la'
   - '*.a'
 modules:
-  - shared-modules/python2.7/python-2.7.json
-
   - name: koodo
     buildsystem: simple
     build-options:
       # Add the node bin directory.
-      append-path: /usr/lib/sdk/node18/bin:/run/build/koodo/flatpak-node/chromedrive
+      append-path: /usr/lib/sdk/node22/bin:/run/build/koodo/flatpak-node/chromedrive
       env:
         # Don't add ELECTRON_CACHE
         XDG_CACHE_HOME: /run/build/koodo/flatpak-node/cache
-        npm_config_nodedir: /usr/lib/sdk/node18
+        npm_config_nodedir: /usr/lib/sdk/node22
         npm_config_offline: 'true'
         npm_config_no_save: 'true'
         npm_config_cache: /run/build/koodo/flatpak-node/npm-cache
@@ -83,8 +79,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/koodo-reader/koodo-reader.git
-        tag: v1.7.4
-        commit: 61779e23b1798229f90a9892b03759563dd77406
+        tag: v2.1.9
+        commit: 6e65291ab2beeaffae27153a33497a573d583453
         x-checker-data:
           type: anitya
           project-id: 328157
@@ -100,7 +96,7 @@ modules:
           - export TMPDIR="${XDG_RUNTIME_DIR}/app/${FLATPAK_ID}"
           - export SNAP=/app/koodo
 
-          - exec zypak-wrapper /app/koodo/koodo-reader $@
+          - exec zypak-wrapper /app/koodo/koodo-reader --ozone-platform-hint=auto --enable-wayland-ime --wayland-text-input-version=3 $@
 
       - type: file
         path: io.github.troyeguo.koodo-reader.metainfo.xml
