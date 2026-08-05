@@ -12403,7 +12403,7 @@
     },
     {
         "type": "inline",
-        "contents": "9",
+        "contents": "11",
         "dest-filename": "installVersion",
         "dest": "flatpak-node/cache/node-gyp/14.1.1"
     },
@@ -12435,7 +12435,7 @@
             "nodedir=$(dirname \"$(dirname \"$(which node)\")\")",
             "mkdir -p \"flatpak-node/cache/node-gyp/$version\"",
             "ln -s \"$nodedir/include\" \"flatpak-node/cache/node-gyp/$version/include\"",
-            "echo 9 > \"flatpak-node/cache/node-gyp/$version/installVersion\""
+            "echo 11 > \"flatpak-node/cache/node-gyp/$version/installVersion\""
         ],
         "dest-filename": "setup_sdk_node_headers.sh",
         "dest": "flatpak-node"
