@@ -72,8 +72,13 @@ modules:
         # ~/.electron-gyp so it finds the pre-cached Electron headers offline.
         ln -sf "$XDG_CACHE_HOME/node-gyp" "$HOME/.electron-gyp"
         # Re-run the project's postinstall that --ignore-scripts skipped, then
-        # rebuild native modules (better-sqlite3, etc.) against Electron.
+        # rebuild native modules against Electron.
         node scripts/patch-nan.js
+        # cpu-features (optional dep of ssh2) ships a gyp setup that fails under
+        # @electron/node-gyp ("buildcheck.gypi not found"). It is optional: ssh2
+        # falls back to its pure-JS crypto path without it. Drop it so only the
+        # modules that actually need an Electron build (better-sqlite3) are built.
+        rm -rf node_modules/cpu-features
         npx electron-builder install-app-deps
         # Build the renderer and package for Linux.
         yarn run build
