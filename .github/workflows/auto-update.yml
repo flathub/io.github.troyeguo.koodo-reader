@@ -15,7 +15,7 @@ jobs:
       - name: Setup environment variables
         run: |
           echo "FLATPAK_BUILDER_TOOLS_DIR=/tmp/flatpak-builder-tools" >> $GITHUB_ENV
-          echo "VERSION="$(yq '.modules[1].sources[0].tag' 'io.github.troyeguo.koodo-reader.yml')"" >> $GITHUB_ENV
+          echo "VERSION="$(yq '.modules[0].sources[0].tag' 'io.github.troyeguo.koodo-reader.yml')"" >> $GITHUB_ENV
 
       - name: Setup flatpak-builder-tools
         run: |
@@ -25,9 +25,9 @@ jobs:
 
       - name: Update Node.js generated sources
         run: |
-          git clone https://github.com/koodo-reader/koodo-reader.git --depth=1 --branch=${VERSION} /tmp/koobo-reader
+          git clone https://github.com/koodo-reader/koodo-reader.git --depth=1 --branch=${VERSION} /tmp/koodo-reader
 
-          flatpak-node-generator --electron-node-headers yarn /tmp/koobo-reader/yarn.lock -o generated-sources.json
+          flatpak-node-generator --electron-node-headers yarn /tmp/koodo-reader/yarn.lock -o generated-sources.json
 
       - name: Commit updates
         run: |
