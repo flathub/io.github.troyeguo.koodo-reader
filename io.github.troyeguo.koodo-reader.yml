@@ -32,7 +32,6 @@ modules:
       env:
         # Don't add ELECTRON_CACHE
         XDG_CACHE_HOME: /run/build/koodo/flatpak-node/cache
-        npm_config_nodedir: /usr/lib/sdk/node22
         npm_config_offline: 'true'
         npm_config_no_save: 'true'
         npm_config_cache: /run/build/koodo/flatpak-node/npm-cache
@@ -53,9 +52,32 @@ modules:
             npm_config_target_arch: arm64
     build-commands:
       - HOME=$PWD yarn config --offline set yarn-offline-mirror $FLATPAK_BUILDER_BUILDDIR/flatpak-node/yarn-mirror
-      - yarn --offline
-      - yarn run build
-      - npx electron-builder --linux dir --${npm_config_arch}
+      - |
+        set -e
+        export HOME=$PWD
+        # Install dependencies without running install scripts; native modules are
+        # rebuilt against the bundled Electron below using the matching V8 headers.
+        yarn --offline --ignore-scripts
+        # Resolve the bundled Electron version and point node-gyp at the cached
+        # headers (flatpak-node/cache/node-gyp/<version>, produced by
+        # flatpak-node-generator --electron-node-headers). Native modules must link
+        # against Electron's V8 ABI, not the SDK Node's, otherwise dlopen fails at
+        # runtime with "undefined symbol" (e.g. v8::String::Utf8Value changed its
+        # signature in V8 13.x / Electron 34).
+        ELECTRON_VERSION=$(node -p "require('./node_modules/electron/package.json').version")
+        export npm_config_target=$ELECTRON_VERSION
+        export npm_config_runtime=electron
+        export npm_config_nodedir=$FLATPAK_BUILDER_BUILDDIR/flatpak-node/cache/node-gyp/$ELECTRON_VERSION
+        # @electron/rebuild does not follow XDG; mirror the node-gyp cache to
+        # ~/.electron-gyp so it finds the pre-cached Electron headers offline.
+        ln -sf "$XDG_CACHE_HOME/node-gyp" "$HOME/.electron-gyp"
+        # Re-run the project's postinstall that --ignore-scripts skipped, then
+        # rebuild native modules (better-sqlite3, etc.) against Electron.
+        node scripts/patch-nan.js
+        npx electron-builder install-app-deps
+        # Build the renderer and package for Linux.
+        yarn run build
+        npx electron-builder --linux dir --${npm_config_arch}
 
       # Copy the resulting, unpacked directory to /app.
       - cp -r dist/linux-*unpacked ${FLATPAK_DEST}/koodo
