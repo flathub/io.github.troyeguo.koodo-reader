@@ -45,6 +45,9 @@
         https://www.koodoreader.com/document</url>
 
     <releases>
+        <release version="2.4.6" date="2026-10-07">
+            <description></description>
+        </release>
         <release version="2.4.3" date="2026-08-01">
             <description></description>
         </release>
